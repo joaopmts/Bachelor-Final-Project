@@ -1,0 +1,168 @@
+body{
+    
+    margin: 0;  
+}
+
+#root{
+    width: 100vw;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.container {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
+header{
+    width: 100vw;
+    background-color: rgb(2, 102, 116);
+    color: #fff;
+    display:flex;
+    justify-content: center;
+    padding: 2em;
+}
+
+.titulo-grafico{
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+.grafico-real-time{
+    width: 80%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(48, 47, 47, 0.247);
+    margin-bottom: 2em;
+}
+
+.graficos{
+margin-bottom: 4em;
+}
+
+.status-sensor{
+    margin-top: 1em;
+    width: 80%;
+    display: flex;
+    font-weight: 700;
+    color: #fff;
+    background-color: #00E031;
+    align-items: center;
+    justify-content: center;
+}
+
+.status-sensor>span{
+    margin-left: 1em;
+}
+
+.info-status{
+    margin-left: 0.5em;
+}
+
+.historico-consulta{
+    width: 80%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(68, 68, 68);
+    margin-bottom: 2em;
+}
+
+.historico-consulta>p{
+    color: #fff;
+}
+
+
+
+form {
+    width: 40%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form>select{
+    width: 40%;
+    height: 2em;
+    text-align: center;
+    border-radius: 0.5em;
+    margin-right: 0.5em;
+}
+
+form>button{
+    width: 10em;
+    height: 2em;
+    font-weight: 700;
+    border-radius: 0.5em;
+    border: 1px solid;
+    border-style: groove;
+}
+
+form>button:active{
+    background-color: rgb(91, 190, 112);
+    border-color:#00E031;
+    border-style: inset;
+}
+
+.grafico-consulta{
+    margin-top: 2em;
+    font-weight: 700;
+    color: #fff;
+}
+
+footer{
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(106, 103, 109);
+}
+
+footer>section{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 3em;
+}
+
+.dev{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+
+.dev>p{
+    font-weight: 600;
+    color: #fff;
+    font-size: 1.2em;
+}
+
+.dev>a>img{
+    border-radius: 50%;
+}
+
+a, a:link, a:visited {
+    text-decoration: none;
+    color: #fff;
+}
+
+  .link-github:hover {
+    color: rgb(91, 190, 112);
+    font-size: 1.2em;
+  }
+  
+  .link-github:active {
+    color: rgb(91, 190, 112);
+  }
